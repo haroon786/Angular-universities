@@ -15,25 +15,24 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'menu-side',
-  templateUrl: './menu-side.component.html',
-  styleUrl: './menu-side.component.scss',
-  standalone: true,
-  imports: [
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatListModule,
-    MatIconModule,
-    AsyncPipe,
-    CoreTableComponent,
-    FormsModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatAutocompleteModule,
-    ReactiveFormsModule,
-    AsyncPipe,
-  ],
+    selector: 'menu-side',
+    templateUrl: './menu-side.component.html',
+    styleUrl: './menu-side.component.scss',
+    imports: [
+        MatToolbarModule,
+        MatButtonModule,
+        MatSidenavModule,
+        MatListModule,
+        MatIconModule,
+        AsyncPipe,
+        CoreTableComponent,
+        FormsModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatAutocompleteModule,
+        ReactiveFormsModule,
+        AsyncPipe,
+    ]
 })
 export class MenuSideComponent implements OnInit {
   myControl = new FormControl('');
